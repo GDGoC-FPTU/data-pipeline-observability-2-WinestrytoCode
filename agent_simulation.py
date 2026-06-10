@@ -28,5 +28,5 @@ if __name__ == "__main__":
     print(simulate_agent_response("What is the best electronic product?", "../exercise-etl-automation/solution-code/processed_data.csv"))
     
     # Test with Garbage Data (to be created by students)
-    print("\nTesting with GARBAGE data:")
+    print("\nTesting with GARBAGE data:")           
     print(simulate_agent_response("What is the best electronic product?", "garbage_data.csv"))
